@@ -8,13 +8,137 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
     <link rel='stylesheet' href="main.css">
     <title>sustainABILITY</title>
 </head>
 
 <body>
-
-
+    <div class="container col-12" id="topCarouselContainer">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" style="width: 100%" src="Images\itemsRecycled_carousel.jpg" alt="First slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>+15 more than last week</h5>
+                        <p>Weekly Items recyled</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" style="width: 100%" src="Images\points_Carousel.jpg" alt="Second slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>500 points total!</h5>
+                        <p>100 more required to level UP!</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" style="width: 100%" src="Images\playerPct_carousel.jpg" alt="Third slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>You're in the top 14%</h5>
+                        <p>of all people in Singapore!</p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <div class="container row page-mid-wrapper-main col-12">
+        <div class="container col-6 friends_leaderboard_cont">
+            <h5 class="friendsLeaderboardHeader">
+                Friends Leaderboard
+            </h5>
+            <table class="table table-dark">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Player</th>
+                        <th scope="col">Points</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Aditya</td>
+                        <td>585</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Jainil</td>
+                        <td>570</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Yu Jun</td>
+                        <td>565</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">4</th>
+                        <td>Daniel</td>
+                        <td>540</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">5</th>
+                        <td>Ruo Mei</td>
+                        <td>535</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="container col-6 rewards_sneakPeek_cont">
+            <h5 class="featuredRewards">
+                Featured Rewards
+            </h5>
+            <img src="Images/fortniteSkin_reward.jpg" class="rounded featuredRewardImg" alt="Get a fortnite 'Green Warrior' skin!">
+            <span>Get an exclusive'Green Warrior' skin in Fortnite</span>
+            <h6>get it at 600 Points!</h6>
+        </div>
+        <div class="navbar" id="bottomNavMain">
+            <div>
+                <a href="#QRscan">
+                    <span>
+                    <i class="fas fa-qrcode"></i>
+                    
+                </span>
+                </a>
+            </div>
+            <div>
+                <a href="#leaderboard">
+                    <span>
+                    <i class="fas fa-medal"></i>
+                    
+                </span>
+                </a>
+            </div>
+            <div>
+                <a href="#rewards">
+                    <span>
+                    <i class="fas fa-gifts"></i>
+                    
+            </span>
+                </a>
+            </div>
+            <div>
+                <a href="#myInventory">
+                    <span>
+                    <i class="fas fa-history"></i>
+                    
+            </span>
+                </a>
+            </div>
+        </div>
+    </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
