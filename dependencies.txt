@@ -1,0 +1,5 @@
+python, server : 
+    external :
+        qrcode
+    internal :
+        QRcreate.py
