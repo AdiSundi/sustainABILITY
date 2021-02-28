@@ -14,4 +14,4 @@ def createQR(unique_id, sku_id_product_name, date_manufacture, plastic_type):
         img.save(f)
 
 if __name__ == "__main__" :
-    createQR("abk123", "abk", "27/02/21", "HDPE")
+    createQR("xyzSoap123q525_270221_HDPE_123qjo_56", "xyzSoap_100mL", "27/02/21", "HDPE")
