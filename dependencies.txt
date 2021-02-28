@@ -3,3 +3,6 @@ python, server :
         qrcode
     internal :
         QRcreate.py
+
+web:
+    bootstrap, jquery, fontawesome
