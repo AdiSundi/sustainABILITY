@@ -5,4 +5,14 @@ python, server :
         QRcreate.py
 
 web:
-    bootstrap, jquery, fontawesome
+    external:
+        bootstrap, 
+        jquery, 
+        fontawesome,
+        rawgit_jsqrcode
+    internal:
+        QRscan.js
+
+edge iot:
+    external:
+        ov-7670-no-ram-arduino-uno
